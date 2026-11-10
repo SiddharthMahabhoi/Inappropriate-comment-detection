@@ -1,0 +1,25 @@
+# Complete dependencies for Context-Aware Inappropriate Comments Scanner (Phases 1, 2, and 3)
+# Python 3.10+ compatible
+
+# Core scientific & tabular processing
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+scikit-learn>=1.2.0
+
+# Deep learning & sentence embeddings (Stages 3 to 6)
+# Note: For CPU execution on Windows:
+# pip install torch --extra-index-url https://download.pytorch.org/whl/cpu
+torch>=2.0.0
+transformers>=4.30.0
+sentence-transformers>=2.2.0
+
+# Serialization & tabular models
+joblib>=1.2.0
+
+# Interactive moderator dashboard (Stage 11)
+streamlit>=1.30.0
+altair>=5.0.0
+
+# Unit and integration testing
+pytest>=7.0.0
